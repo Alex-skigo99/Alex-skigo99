@@ -15,27 +15,24 @@ html {
     font-size: medium;
 }
 
+body {
+    max-width: 1200px;
+    margin: auto;
+    background-color: var(--back-color);
+    color: var(--main-font-color);
+}
+
+
 @media only screen and (max-width: 992px) {
-    body {
-        max-width: 1200px;
-        margin: auto;
-        background-color: var(--back-color);
-        color: var(--main-font-color);
-    }
 
     #left-side {
         position: relative;
         margin-right: 20px;
     }
+
 }
 
 @media only screen and (min-width: 993px) {
-    body {
-        max-width: 1200px;
-        margin: auto;
-        background-color: var(--back-color);
-        color: var(--main-font-color);
-    }
 
     #left-side {
         position: fixed;
@@ -44,9 +41,23 @@ html {
         margin-right: 20px;
     }
 
-    /* #right-side {
-        margin-left: 400px;
-    } */
+    .card:hover {
+        background-color: var(--back-color-hover);
+        color: var(--high-font-color);
+
+        .card-title {
+            color: orange;
+        }
+    }
+
+    #contacts {
+        height: 12ex;
+        align-content: end;
+    }
+
+    .switch {
+        position: fixed;
+    }
 }
 
 h3,
@@ -74,15 +85,6 @@ h6 {
 .card {
     background-color: var(--back-color);
     border-radius: 20px;
-}
-
-.card:hover {
-    background-color: var(--back-color-hover);
-    color: var(--high-font-color);
-
-    .card-title {
-        color: orange;
-    }
 }
 
 .screen-shot {

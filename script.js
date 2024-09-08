@@ -13,6 +13,12 @@ document.addEventListener('DOMContentLoaded', function() {
     };
     var instances = M.Materialbox.init(elems, options2);
 
+    var elems = document.querySelectorAll('.tooltipped');
+    let options3 = {
+        enterDelay: 300
+    };
+    var instances = M.Tooltip.init(elems, options3);
+
     const skills = document.querySelectorAll('#skills li')
     skills.forEach((li, i) => {
         li.style.marginLeft = 6 + 12 * (i % 3) + 'ex';
