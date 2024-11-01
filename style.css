@@ -87,7 +87,7 @@ p {
 
 #my-photo {
     object-fit: cover;
-    object-position: 100% 80%;
+    object-position: 100% 40%;
     scale: 1.1;
     border-radius: 50%;
     width: 150px;
