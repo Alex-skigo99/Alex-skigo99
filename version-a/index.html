@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sasha Bolshuhin — Full Stack Developer</title>
+    <link rel="icon" type="image/jpeg" href="../media/my-photo.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">SB</a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <!-- Mobile menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#projects" class="mobile-link">Projects</a>
+            <a href="#experience" class="mobile-link">Experience</a>
+            <a href="#education" class="mobile-link">Education</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-badge animate-in">Available for hire</div>
+            <h1 class="hero-title animate-in">
+                <span class="hero-greeting">Hi, I'm</span>
+                <span class="hero-name">Sasha Bolshuhin</span>
+            </h1>
+            <p class="hero-subtitle animate-in">Full Stack Developer</p>
+            <p class="hero-description animate-in">
+                Building production web applications with modern JavaScript/TypeScript stacks, 
+                AWS serverless environments, and AI integrations. Turning complex business logic 
+                into clean, scalable solutions.
+            </p>
+            <div class="hero-actions animate-in">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+            </div>
+            <div class="hero-tech animate-in">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">AWS</span>
+                <span class="tech-tag">PostgreSQL</span>
+            </div>
+        </div>
+        <div class="hero-visual animate-in">
+            <div class="hero-image-wrapper">
+                <img src="../media/my-photo.jpeg" alt="Sasha Bolshuhin" class="hero-image">
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">3+</span>
+                    <span class="stat-label">Years Coding</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Production Apps</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">2</span>
+                    <span class="stat-label">Dev Roles</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="section-inner">
+            <div class="section-label animate-on-scroll">01</div>
+            <h2 class="section-title animate-on-scroll">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text animate-on-scroll">
+                    <p>
+                        Full Stack Developer with hands-on experience building production web applications 
+                        in modern JavaScript/TypeScript stacks and AWS serverless environments. I focus on 
+                        clean architecture, performance, and scalable solutions.
+                    </p>
+                    <p>
+                        My background in the financial sector gives me a solid understanding of business logic, 
+                        data integrity, and accuracy. I'm passionate about creating intuitive, responsive user 
+                        experiences and integrating AI tools to automate and improve workflows.
+                    </p>
+                    <p>
+                        Outside of code, I prefer an active lifestyle — cycling, running, and yoga keep me 
+                        balanced and energised.
+                    </p>
+                </div>
+                <div class="skills-grid animate-on-scroll">
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Frontend</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Next.js</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">Tailwind CSS</span>
+                            <span class="skill-tag">Redux</span>
+                            <span class="skill-tag">TanStack Query</span>
+                            <span class="skill-tag">shadcn/ui</span>
+                            <span class="skill-tag">MUI</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Backend</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Express</span>
+                            <span class="skill-tag">REST APIs</span>
+                            <span class="skill-tag">Serverless</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Databases</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">DynamoDB</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Cloud & DevOps</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">AWS Lambda</span>
+                            <span class="skill-tag">API Gateway</span>
+                            <span class="skill-tag">S3</span>
+                            <span class="skill-tag">SQS / SNS</span>
+                            <span class="skill-tag">Cognito</span>
+                            <span class="skill-tag">GitHub Actions</span>
+                            <span class="skill-tag">Docker</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Tools</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">Copilot</span>
+                            <span class="skill-tag">Swagger</span>
+                            <span class="skill-tag">AI Integrations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section section-alt" id="projects">
+        <div class="section-inner">
+            <div class="section-label animate-on-scroll">02</div>
+            <h2 class="section-title animate-on-scroll">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1: Nail Salon Management -->
+                <a href="nail-salon-management.html" class="project-card animate-on-scroll">
+                    <div class="project-image-wrapper">
+                        <img src="../media/nail_salon_media/nail_salon_screenshot_01.png" alt="Nail Salon Management" class="project-image">
+                        <div class="project-overlay">
+                            <span class="project-view">View Case Study →</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">Next.js 16</span>
+                            <span class="project-tag">React 19</span>
+                            <span class="project-tag">Express 5</span>
+                            <span class="project-tag">PostgreSQL</span>
+                            <span class="project-tag">AWS</span>
+                        </div>
+                        <h3 class="project-title">Nail Salon Management</h3>
+                        <p class="project-desc">
+                            Full-stack web application for beauty business automation — client booking portal 
+                            with multi-language support and a comprehensive admin panel for managing staff, 
+                            services, appointments, and email notifications.
+                        </p>
+                        <div class="project-links">
+                            <span class="project-link-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                GitHub
+                            </span>
+                            <span class="project-link-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                                Live Demo
+                            </span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 2: Personality Collection -->
+                <a href="personality-collection.html" class="project-card animate-on-scroll">
+                    <div class="project-image-wrapper">
+                        <img src="../media/personality_media/personality_screenshot_01.png" alt="Personality Collection" class="project-image">
+                        <div class="project-overlay">
+                            <span class="project-view">View Case Study →</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">React 18</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">MongoDB</span>
+                            <span class="project-tag">Groq AI</span>
+                            <span class="project-tag">AWS SES</span>
+                        </div>
+                        <h3 class="project-title">Personality Collection</h3>
+                        <p class="project-desc">
+                            B2B platform that assesses YouTube creators' personality types through a Big 5 
+                            personality survey and delivers AI-generated personalised growth recommendations 
+                            using Groq Cloud LLM.
+                        </p>
+                        <div class="project-links">
+                            <span class="project-link-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                GitHub
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <div class="section-inner">
+            <div class="section-label animate-on-scroll">03</div>
+            <h2 class="section-title animate-on-scroll">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">05/2025 — 01/2026</div>
+                        <h3 class="timeline-title">Full Stack Developer</h3>
+                        <div class="timeline-company">Evomake · Petah Tikva, Israel</div>
+                        <ul class="timeline-details">
+                            <li>Built serverless web app for managing Google Business Profile accounts with AI-driven automation</li>
+                            <li>Backend services on AWS Lambda with Google Business Profile APIs, Stripe, SQS/SNS</li>
+                            <li>Frontend in Next.js/React + TypeScript with Tailwind CSS and shadcn/ui</li>
+                            <li>Integrated AI tools for automated review responses and post content generation</li>
+                            <li>Full AWS stack: Lambda, S3, API Gateway, DynamoDB, SQS, SNS, Cognito</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">10/2024 — 03/2025</div>
+                        <h3 class="timeline-title">Full Stack Developer</h3>
+                        <div class="timeline-company">InsightGenie · Israel</div>
+                        <ul class="timeline-details">
+                            <li>Developed web applications using Node.js, MongoDB, AWS S3, React, and Tailwind CSS</li>
+                            <li>Implemented end-to-end features: RESTful APIs, UI components, and data flows</li>
+                            <li>Optimized performance with React Query, reducing loading times</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">11/2023 — 01/2024</div>
+                        <h3 class="timeline-title">Backend Developer</h3>
+                        <div class="timeline-company">Yandex Practicum · Remote</div>
+                        <ul class="timeline-details">
+                            <li>Contributed backend components and tests for an educational platform</li>
+                            <li>Developed a Telegram bot for review process notifications</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">04/2011 — 01/2023</div>
+                        <h3 class="timeline-title">Economist</h3>
+                        <div class="timeline-company">Moscow Regional Microfinance Fund · Moscow, Russia</div>
+                        <ul class="timeline-details">
+                            <li>Analyzed startup business plans and financial models</li>
+                            <li>Collaborated with stakeholders to evaluate risks and feasibility</li>
+                            <li>Experience with data, KPIs, and structured reporting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section section-alt" id="education">
+        <div class="section-inner">
+            <div class="section-label animate-on-scroll">04</div>
+            <h2 class="section-title animate-on-scroll">Education</h2>
+            <div class="education-grid">
+                <div class="education-card animate-on-scroll">
+                    <div class="education-year">2024</div>
+                    <h3 class="education-title">Full Stack Web Development Bootcamp</h3>
+                    <div class="education-school">Developers Institute · Tel Aviv, Israel</div>
+                    <p class="education-desc">
+                        Intensive full-time bootcamp covering full-stack development with modern 
+                        JavaScript/TypeScript, React, Node.js, databases, and deployment.
+                    </p>
+                </div>
+                <div class="education-card animate-on-scroll">
+                    <div class="education-year">2023</div>
+                    <h3 class="education-title">Python Backend Development</h3>
+                    <div class="education-school">Yandex Practicum · Online</div>
+                    <p class="education-desc">
+                        9-month structured course from fundamentals to deploying REST API projects 
+                        on remote servers with CI/CD in Docker containers and Nginx.
+                    </p>
+                </div>
+                <div class="education-card animate-on-scroll">
+                    <div class="education-year">1997</div>
+                    <h3 class="education-title">Bachelor's in Engineering & Economics</h3>
+                    <div class="education-school">Moscow State University of Civil Engineering · Russia</div>
+                    <p class="education-desc">
+                        Faculty of Economics, Organization and Management in Construction. 
+                        Diploma project on assessing reconstruction effectiveness of public buildings.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="section-inner contact-section">
+            <div class="section-label animate-on-scroll">05</div>
+            <h2 class="section-title animate-on-scroll">Let's Work Together</h2>
+            <p class="contact-text animate-on-scroll">
+                I'm currently looking for new opportunities. Whether you have a question or 
+                just want to say hi, my inbox is always open.
+            </p>
+            <div class="contact-links animate-on-scroll">
+                <a href="mailto:sbolshuhin@gmail.com" class="contact-card">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                    <span>sbolshuhin@gmail.com</span>
+                </a>
+                <a href="https://wa.me/972512564673" target="_blank" class="contact-card">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    <span>WhatsApp</span>
+                </a>
+                <a href="https://www.linkedin.com/in/sasha-bolshuhin-27a7a4279/" target="_blank" class="contact-card">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/Alex-skigo99" target="_blank" class="contact-card">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    <span>GitHub</span>
+                </a>
+            </div>
+            <a href="../Sasha_Bolshuhin_full_stack_CV.pdf" target="_blank" class="btn btn-primary animate-on-scroll">Download CV</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 Sasha Bolshuhin. Built with passion.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
